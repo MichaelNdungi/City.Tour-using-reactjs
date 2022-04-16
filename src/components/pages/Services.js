@@ -3,5 +3,5 @@ import "../../App.css";
 
 
 export default function Services(){
-    return <h1 className='services'>for the services</h1>
+    return <h1 className='services'>Tours will be here</h1>
 };
