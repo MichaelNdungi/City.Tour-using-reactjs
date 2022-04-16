@@ -19,7 +19,7 @@
   }
   
   .navbar-logo {
-    color: rgb(238, 131, 131);
+    color: rgb(240, 215, 215);
     justify-self: start;
     margin-left: 10px;
     cursor: pointer;
@@ -28,7 +28,7 @@
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    font-family: 'Rubik Puddles', cursive
+    font-family: 'Henny Penny', cursive;
   }
   
 
@@ -130,6 +130,7 @@
   
     .navbar-logo {
       position: absolute;
+      margin-top: 3px;
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
