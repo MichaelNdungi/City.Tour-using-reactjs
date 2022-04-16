@@ -19,7 +19,7 @@
   }
   
   .navbar-logo {
-    color: rgb(240, 215, 215);
+    color: rgb(238, 131, 131);
     justify-self: start;
     margin-left: 10px;
     cursor: pointer;
@@ -28,7 +28,7 @@
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    font-family: fantasy;
+    font-family: 'Rubik Puddles', cursive
   }
   
 
