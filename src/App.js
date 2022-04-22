@@ -3,10 +3,10 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
+import Tours from './components/pages/Tours';
 import SignUp from './components/pages/SignUp';
-
+import About from './components/pages/About';
+// import ReactCardSlider from './components/ReactCardSlider'
 function App() {
   return (
     <>
@@ -14,9 +14,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
+          <Route path='/Tours' component={Tours} />
+          <Route path='/About' component={About} />
           <Route path='/sign-up' component={SignUp} />
+
         </Switch>
       </Router>
     </>

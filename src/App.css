@@ -6,8 +6,8 @@
 }
 
 .home,
-.services,
-.products,
+.Tours,
+.About,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -16,29 +16,36 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('img-9.jpg');
+.Tours {
+  /* background-image: url('img-9.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 50px;
+  background-repeat: no-repeat; */
+  /* /* color: #fff; */
+  font-size: 50px; 
 }
 
-.products {
+.About {
   background-image: url('img-9.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 50px;
+
 }
 
 .sign-up {
-  background-image: url('img-9.jpg');
-  background-position: center;
+  /* background-image: url('img-9.jpg');
+ 
   background-size: cover;
-  background-repeat: no-repeat;
+  
   color: #fff;
-  font-size: 50px;
+  font-size: 50px; */
+
+/* background-position: center; */
+
+background-repeat: no-repeat;
 }
+
+
