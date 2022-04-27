@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
+    
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
@@ -21,7 +22,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline' >Subscribe</Button>
           </form>
         </div>
       </section>
@@ -59,11 +60,12 @@ function Footer() {
           </div>
         </div>
       </div>
+      <hr className='hline'></hr>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              City.Tour
+              City.tour
               
             </Link>
           </div>
