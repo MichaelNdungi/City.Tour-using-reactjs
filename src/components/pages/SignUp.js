@@ -6,8 +6,9 @@ import Footer from "../Footer";
 function SignUp() {
     return (
       <>
-      <br></br>
+      
         <MyApp/>
+        <br></br>
         <br></br>
         <Footer/>
       </>

@@ -1,13 +1,54 @@
 
+.mainabout{
+    display: inline-flex;
+}
 .about{
-    margin-right: 600px;
+
+
+    justify-content: center;
+    /* display: inline; */
+    width:600px;
+    height: 150px;
+    margin-bottom: 70px;
     margin-left: 150px;
+    font-family:"NYC Sans Bold","NYC Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.picandcontent-wrapper{
+    margin-left: 200px;
+    display:grid;
+    width: 600px;
+    height: 600px;
+    /* background-color: brown; */
+}
+.picabout-wrapper{
+    width:500px;
+    height: 100px; 
+    
+    margin-left: 100px;
+
+    display: inline-table;
+    justify-content: center;
+    color: rgb(7, 7, 7);
+}
+
+.picabout{
+    border-radius:20px;
+    background: url("../img-13.jpg") center center/cover
+    no-repeat;
+    margin-top:50px;
+    justify-content: center;
+    margin-left: 20px;
+    
+    width:500px;
+    height: 400px;
+    
+
 }
 .title{
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    color: rgb(211, 23, 23);   
+    color: rgb(7, 7, 7);   
     margin-top: 20px;
 
 }
@@ -17,18 +58,49 @@
     text-align: left;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 .buses{
     font-size: 20px;
-    color:rgb(211, 23, 23);
+    color: rgb(7, 7, 7);
     font-family: 'Times New Roman', Times, serif;
     margin-top: 20px;
     text-align: left;
+    font-weight: bolder;
 }
 .online{
     margin-top: 20px;
     font-size: 20px;
-    color: rgb(211, 23, 23);
+ color: rgb(7, 7, 7);;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
+    font-weight: bolder;
 }
+@media screen and (max-width:768px){
+
+    .picandcontent-wrapper{
+        margin-left: 40px;
+        display:grid;
+        margin-top: 500px;
+        width: 600px;
+        height: 600px;
+        margin-bottom: 0px;
+        /* background-color: brown; */
+    }
+    .mainabout{
+        display: grid;
+        grid-template-columns: repeat(1, 700px);
+    }   
+    .about{
+
+
+        justify-content: center;
+        /* display: inline; */
+        width:450px;
+        height: 150px;
+        margin-bottom: 70px;
+        margin-left: 70px;
+        font-family:"NYC Sans Bold","NYC Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    }

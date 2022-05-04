@@ -1,6 +1,6 @@
 #main-slider-container{
-    width: 90%;
-    height: 305px;
+    width: 100%;
+    height:auto;
     margin-top:10px;
 
 }
@@ -30,7 +30,7 @@ margin: 10px 0px 5px 10px;
     
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-image: url('../img-8.jpg');
+    background-image: url('../img-9.jpg');
     background-repeat: no-repeat;
 
 }

@@ -4,7 +4,7 @@ export default function About (){
 
     return ( 
 
-        <div>
+        <div className='mainabout'>
      
         <div className='about'>
       
@@ -36,6 +36,15 @@ City Tour Kenya also sells the activities included
   of interest, excursions and tours on different means of transport, meals at 
   restaurants and discounts at stores, among others.</p>
   
+    
+    </div>
+    <div className='picandcontent-wrapper'>
+    <div className='picabout'>
+
+</div>
+<div className='picabout-wrapper'>
+    city tour is full of more then you can imagine!
+    </div>
     
     </div>
     </div>

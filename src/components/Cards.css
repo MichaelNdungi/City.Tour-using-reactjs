@@ -3,21 +3,26 @@
     background: #fff;
   }
   
-  h1 {
+.cardstitle {
     text-align: center;
+    
   }
   
   .cards__container {
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
+    max-width: 2000px;
+    /* background-color: yellow; */
     width: 100%;
     margin: 0 auto;
+    margin-left: 10px;
   }
   
   .cards__wrapper {
     position: relative;
+    width: 1500px;
+    height: 600px;
     margin: 50px 0 45px;
   }
   
@@ -66,7 +71,7 @@
     font-size: 13px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #fec830;
     box-sizing: border-box;
   }
   
@@ -101,18 +106,33 @@
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
-      width: 84%;
+      width: 20%;
     }
   }
   
   @media only screen and (min-width: 1024px) {
     .cards__items {
       display: flex;
+      /* width:20% */
+    
     }
   }
   
   @media only screen and (max-width: 1024px) {
     .cards__item {
-      margin-bottom: 2rem;
+      margin-bottom: 10px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .cards__container{
+      width: 30%;
+    }
+    .cards__item{
+      width:30%;
+      justify-content: center;
+      margin-left: 700px;
+    }
+    .cards__wrapper{
+      height: 28%;
     }
   }

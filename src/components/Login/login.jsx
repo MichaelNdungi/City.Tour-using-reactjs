@@ -1,5 +1,5 @@
 import React from "react";
-// import loginImg from "../img2.jpg";
+import loginImg from "../../img-1.jpg";
 
 export class Login extends React.Component {
   constructor(props) {

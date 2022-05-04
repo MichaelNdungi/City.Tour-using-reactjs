@@ -1,10 +1,34 @@
+.hline{
+  width:90%;
+  height:1px;
+  border:none;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:black;
+  margin-top: 10px;
+
+}
+.hline2{
+  width:90%;
+  height:1px;
+  border:none;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgb(231, 226, 226);
+  margin-top: 10px;
+
+}
 .footer-container {
-    background-color: #242424;
+    background-color:#fff;
     padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border-top: 1px solid rgb(7,7,7); */
+    /* margin-left:20px;
+    margin-right:20px; */
+    border:0;
   }
   
   .footer-subscription {
@@ -16,7 +40,7 @@
   
     margin-bottom: 24px;
     padding: 24px;
-    color: #fff;
+    color: rgb(7,7,7);
   }
   
   .footer-subscription > p {
@@ -39,11 +63,12 @@
     border-radius: 2px;
     margin-right: 10px;
     outline: none;
-    border: none;
-    font-size: 18px;
+    border-color: black;
+    font-size: 15px;
     margin-bottom: 16px;
-    border: 1px solid #fff;
+    border: 1px solid rgb(7,7,7);
   }
+  
   
   .footer-links {
     width: 100%;
@@ -54,6 +79,7 @@
   
   .footer-link-wrapper {
     display: flex;
+    margin-left: 40px;
   }
   
   .footer-link-items {
@@ -71,11 +97,11 @@
   }
   
   .footer-link-items > h2 {
-    color: #fff;
+    color: rgb(7,7,7);
   }
   
   .footer-link-items a {
-    color: #fff;
+    color: rgb(7,7,7);
     text-decoration: none;
     margin-bottom: 0.5rem;
   }
@@ -90,12 +116,12 @@
   }
   
   .footer-input::placeholder {
-    color: #b1b1b1;
+    color: rgb(7,7,7);
   }
   
   /* Social Icons */
   .social-icon-link {
-    color: #fff;
+    color: rgb(7,7,7);
     font-size: 24px;
   }
   
@@ -117,25 +143,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 240px;
+    width: 200px;
+    margin-bottom:15px ;
   }
   
   .social-logo {
-    color: rgb(240, 215, 215);
+    color: rgb(7,7,7);
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
-    font-family: fantasy;
+    margin-bottom: 12px;
+    font-family: 'Alfa Slab One', cursive; 
   }
   
   .website-rights {
-    color: #fff;
-    margin-bottom: 16px;
+    color: rgb(7,7,7);
+    margin-bottom: 14px;
     
   }
   

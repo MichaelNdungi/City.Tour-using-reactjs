@@ -27,11 +27,37 @@ function Navbar() {
     window.addEventListener("resize", showButton);
     return (
         <>
+        <div className='topnav'>
+            <h1 className='topheading'>let's tour Kenya together</h1>
+            <span className='iconn'></span>
+        </div>
+        <div className="topnav2">
+            <ul className="topnavhorizontal">
+                            <li className='nav-item2'>
+                            <Link to="/" className='nav-links2' >
+                                visitors
+                            </Link>
+                        </li>
+                        <li className='nav-item2'>
+                            <Link to="/" className='nav-links2' >
+                                Membership
+                            </Link>
+                        </li>
+                        <li className='nav-item2'>
+                            <Link to="/" className='nav-links2'>
+                            Travel Trade
+                            </Link>
+                        </li>
+                        
+            </ul>
+
+        </div>
             <nav className='navbar'>
 
                 <div className='navbar-container'>
                     <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-                        City.Tour
+                     <h1 className='logo'>  City.tour</h1>
+                     <p className='lopo'> tour kenya cities</p> 
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times':'fas fa-bars' } />
@@ -59,7 +85,7 @@ function Navbar() {
                            </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                    {button && <Button buttonStyle='btn--outline'>SIGN IN</Button>}
                 </div>
             </nav>
         </>
