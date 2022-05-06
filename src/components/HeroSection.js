@@ -5,8 +5,10 @@ import "../App.css";
 function HeroSection() {
   return (
     <div className='hero-container'>
- 
-<h1>CITY TOUR,ADVENTURE KENYA AWAITS</h1>
+ <h1 className='cityh1'>CITY</h1>
+ <h1 className='cityh2'>TOUR</h1>
+
+<h1 className='cityh3'>ADVENTURE KENYA AWAITS</h1>
 <p >Choosing where to start in kenya can be overwhelming.From adrenaline-fuelled 
         adventures to more meditative outings,here are the best cities to tour with us
    in kenya along with great activities!

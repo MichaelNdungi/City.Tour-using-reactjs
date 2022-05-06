@@ -190,5 +190,11 @@
     
   }
   @media screen and (max-width: 768px) {
+    .btn--outline{
+      margin-left: 1px;
+       margin-right: 20px; 
+      align-self: center;
+
+    }
     
   }
