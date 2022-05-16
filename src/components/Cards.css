@@ -1,3 +1,37 @@
+.search{
+  text-align: left;
+  font-size: small;
+  color: black;
+}
+.test{
+  width:20%;
+  height: 150px;
+  background-color: #fec830;
+  display: grid;
+  margin-left: 30px;
+}
+.searchword{
+  width:100%;
+  height:50px;
+  background-color: aqua;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.searchh1{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+.inputdiv{
+  width: 100%;
+  height:100px;
+  background-color: rgb(4, 112, 112);
+}
+.input{
+  width: 100%;
+  height: 50px;
+}
 .cards {
     padding: 4rem;
     background: #fff;

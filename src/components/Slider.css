@@ -1,7 +1,9 @@
 #main-slider-container{
-    width: 100%;
+    width: 90%;
     height:auto;
     margin-top:10px;
+    margin-left:60px;
+   
 
 }
 #main-slider-container{
@@ -10,6 +12,12 @@
     align-items: center;
     
     
+}
+.featured{
+    width:500px;
+    height:50px;
+    
+    margin-left:150px;
 }
 .slider-card-title,.slider-card-description{
 margin: 10px 0px 5px 10px;
@@ -44,9 +52,15 @@ margin: 10px 0px 5px 10px;
     overflow-x: scroll;
     scrollbar-width: none;
     scroll-behavior: smooth;
-background: black;
+background: #fff;
 margin-left: 30px;
 margin-right: 30px;
+margin-top:10px;
+
+}
+.featuredh1{
+    font-size: 30px;
+    font-weight: 200;
 }
 .slider-icon-left,.slider-icon-right{
     
@@ -86,4 +100,14 @@ margin-right: 5px;
 box-shadow: 2px 2px 2px 2px rgb(0 0 0/12%);
 cursor: pointer;
 
+    }
+    @media screen and (max-width:768px){
+
+        #main-slider-container{
+            width: 80%;
+            height:auto;
+            margin-top:10px;
+            margin-left:60px;
+        
+        }
     }

@@ -6,9 +6,11 @@
   display: relative;
   /* margin-top:10px; */
   align-items: center;
+  text-align: center;
   justify-content: center;
   text-align: center;
   color: black;
+  margin-top: 0px;
 }
 .topnav2{
   background-color: rgb(236, 235, 235) ;
@@ -94,6 +96,7 @@
   align-items: center;
   font-size: 24px;
   margin-top:0px;
+  margin-bottom:0px;
 }
 .navbar {
     background: #fff;
@@ -199,6 +202,19 @@
   }
   
   @media screen and (max-width: 960px) {
+
+
+    .topheading{
+      font-weight:bold;
+      text-align: center;
+      color: black;
+      align-items: center;
+      font-size: 19px;
+      margin-top:0px;
+      margin-bottom:0px;
+      margin-left: 43px;
+      padding: 0.6rem;
+    }
     .NavbarItems {
       position: relative;
     }

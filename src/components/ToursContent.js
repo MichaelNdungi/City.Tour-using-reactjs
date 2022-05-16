@@ -64,7 +64,36 @@ function Tours() {
             </Link>
           </div>
           </div>
+          <div className='bthSearchnoffer'>
+          <div className="search1">
+          <i class="fa fa-search" aria-hidden="true" size="900px" ></i>
+          <input
+         
+          type="text"
+          className='inputt'
+          label="Search"
+          placeholder='Search'
+
+          >
+            </input>
+
+          </div>
+          <div className='alloffers'>
+          <div className='offer'>
+          <h1 className='offerh1' >Offer Available</h1>
+          </div>
+          <div className='offer'>
+          <h1 className='offerh1' >Type</h1>
+          </div>
+          <div className='offer'>
+          <h1 className='offerh1' >Featured</h1>
+          </div>
+       
           
+        
+          </div>
+          </div>
+          <hr className='hline2'></hr>
     <div className='alltours'>
   
     <div className='allwrapper'>
@@ -72,8 +101,8 @@ function Tours() {
 
       </div>
       <div className='contentwrapper'>
-        <h1 className='hh1'>Nairobi</h1>
-        <p className='p1'>the capital city</p>
+        <h1 className='hh1'>Maasai Mara</h1>
+        <p className='p1'>Hot air ballon</p>
         <br></br>
         <button className='btnone'>Buy Ticket</button>   <button className='btntwo'>more info</button>
        
@@ -89,12 +118,12 @@ function Tours() {
     
     
     <div className='allwrapper'>
-      <div className='picwrapperr'>
+      <div className='picwrapperr1'>
 
       </div>
       <div className='contentwrapper'>
         <h1 className='hh1'>Nairobi</h1>
-        <p className='p1'>the capital city</p>
+        <p className='p1'>explore the green city</p>
         <br></br>
         <button className='btnone'>Buy Ticket</button>   <button className='btntwo'>more info</button>
        
@@ -108,12 +137,12 @@ function Tours() {
 
     </div>
     <div className='allwrapper'>
-      <div className='picwrapperr'>
+      <div className='picwrapperr2'>
 
       </div>
       <div className='contentwrapper'>
-        <h1 className='hh1'>Nairobi</h1>
-        <p className='p1'>the capital city</p>
+        <h1 className='hh1'>Nakuru</h1>
+        <p className='p1'>beautiful grasslands</p>
         <br></br>
         <button className='btnone'>Buy Ticket</button>   <button className='btntwo'>more info</button>
        
@@ -127,12 +156,12 @@ function Tours() {
 
     </div>
     <div className='allwrapper'>
-      <div className='picwrapperr'>
+      <div className='picwrapperr3'>
 
       </div>
       <div className='contentwrapper'>
         <h1 className='hh1'>Nairobi</h1>
-        <p className='p1'>the capital city</p>
+        <p className='p1'>unmissable attractions</p>
         <br></br>
         <button className='btnone'>Buy Ticket</button>   <button className='btntwo'>more info</button>
        
@@ -146,12 +175,12 @@ function Tours() {
 
     </div>
     <div className='allwrapper'>
-      <div className='picwrapperr'>
+      <div className='picwrapperr4'>
 
       </div>
       <div className='contentwrapper'>
-        <h1 className='hh1'>Nairobi</h1>
-        <p className='p1'>the capital city</p>
+        <h1 className='hh1'>Kisumu</h1>
+        <p className='p1'>lakeside</p>
         <br></br>
         <button className='btnone'>Buy Ticket</button>   <button className='btntwo'>more info</button>
        
@@ -165,12 +194,12 @@ function Tours() {
 
     </div>
     <div className='allwrapper'>
-      <div className='picwrapperr'>
+      <div className='picwrapperr5'>
 
       </div>
       <div className='contentwrapper'>
-        <h1 className='hh1'>Nairobi</h1>
-        <p className='p1'>the capital city</p>
+        <h1 className='hh1'>Naivasha</h1>
+        <p className='p1'>lakesideview</p>
         <br></br>
         <button className='btnone'>Buy Ticket</button>   <button className='btntwo'>more info</button>
        
@@ -185,12 +214,12 @@ function Tours() {
     </div>
     
     <div className='allwrapper'>
-      <div className='picwrapperr'>
+      <div className='picwrapperr6'>
 
       </div>
       <div className='contentwrapper'>
-        <h1 className='hh1'>Nairobi</h1>
-        <p className='p1'>the capital city</p>
+        <h1 className='hh1'>Kisumu</h1>
+        <p className='p1'>camly lakeside view</p>
         <br></br>
         <button className='btnone'>Buy Ticket</button>   <button className='btntwo'>more info</button>
        
@@ -204,12 +233,12 @@ function Tours() {
 
     </div>
     <div className='allwrapper'>
-      <div className='picwrapperr'>
+      <div className='picwrapperr7'>
 
       </div>
       <div className='contentwrapper'>
-        <h1 className='hh1'>Nairobi</h1>
-        <p className='p1'>the capital city</p>
+        <h1 className='hh1'>Nakuru</h1>
+        <p className='p1'>colourful flamingoes</p>
         <br></br>
         <button className='btnone'>Buy Ticket</button>   <button className='btntwo'>more info</button>
        

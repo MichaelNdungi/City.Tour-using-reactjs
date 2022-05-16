@@ -28,7 +28,7 @@ function Navbar() {
     return (
         <>
         <div className='topnav'>
-            <h1 className='topheading'>let's tour Kenya together</h1>
+            <h1 className='topheading'>let's tour Kenya together, ticket valid 1 year after purchase!</h1>
             <span className='iconn'></span>
         </div>
         <div className="topnav2">

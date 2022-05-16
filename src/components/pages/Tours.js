@@ -14,7 +14,10 @@ function Home() {
       <TOURCONTENT/>
       <br></br>
       <hr className='hline2'></hr>
+      <ReactCardSlider/>
+      <hr className='hline2'></hr>
       <Footer/>
+      
     
     
     </>

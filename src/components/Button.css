@@ -22,7 +22,7 @@
     border: 2px solid var(--primary);
     transition: all 0.3s ease-out;
     border-radius: 20px;
-    margin-left: 10px;
+    margin-left: 2px;
     margin-top:0px;
     width:200px;
   }

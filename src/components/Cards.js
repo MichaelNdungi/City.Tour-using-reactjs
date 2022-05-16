@@ -1,10 +1,45 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+
+
+
+// const [filter, setFilter] = useState('');
+// const searchText = (event) =>{
+//   setFilter(event.target.value);
+// }
+
+// let dataSearch = CardItem.cardData.filter(item =>{
+
+// return Object.keys(item).some(key =>
+//   item[key].toString(). toLowerCase().includes(filter.toString().toLowerCase())
+  
+//   )
+// });
 
 function Cards() {
   return (
     <div className='cards'>
+      {/* <div className= "test">
+        <div className='searchword'>
+          <h1 className='searchh1'>Search</h1>
+
+        </div>
+        <div className='inputdiv'>
+          <input
+          type="text"
+          className='input'
+          value={filter}
+          onChange={searchText.bind(this)}
+          
+          
+          >
+          
+          </input>
+        </div>
+
+      </div> */}
+    
       <h1 className="cardstitle" >City Tours</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
